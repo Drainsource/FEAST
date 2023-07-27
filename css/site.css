@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Kreon:wght@700&family=Nunito+Sans:opsz,wght@6..12,300&family=Roboto:ital,wght@0,100;0,400;0,500;1,500&display=swap');
+
+html {
+    font-size: 36px;
+}
+
+header {
+    font-family: 'Kreon';
+    font-size: 24px;
+    text-align: right;
+
+}
+
+nav {
+    background-color: black;
+    color: aliceblue;
+}
+
+a {
+    color: aliceblue;
+    font-style: normal;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+footer {
+    font-size: 0.75px;
+}
