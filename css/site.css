@@ -1,10 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Kreon:wght@700&family=Nunito+Sans:opsz,wght@6..12,300&family=Roboto:ital,wght@0,100;0,400;0,500;1,500&display=swap');
 
-html {
-    font-size: 36px;
+/* html {
+   margin-left: 25%;
+   margin-right: 25%;
+    font-size: 24px;
+    font-family: 'Nunito';
 }
 
-header {
+header, footer {
     font-family: 'Kreon';
     font-size: 24px;
     text-align: right;
@@ -23,13 +26,164 @@ a {
 }
 
 h1 {
+    text-transform: capitalize;
     font-size: 4rem;
+    margin: 0;
 }
 
 h2 {
+    margin: 10px;
     font-size: 2rem;
+    
 }
 
 footer {
     font-size: 0.75px;
+    background-color: black;
 }
+
+
+
+  .highlights {
+
+    display: flow-root;
+  }
+
+  .float-left {
+
+    width: 50%;
+    float: left;
+  }
+
+  .float-right {
+
+    width: 50%;
+    float: right;
+  }
+
+  #Destination {
+    text-align: center;
+  }
+
+p {
+    margin: 20px;
+} */
+
+html {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 300;
+    font-size: 36px;
+}
+
+body {
+    max-width: 1440px;
+    margin: auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Kreon', serif;
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 4rem;
+    text-transform: uppercase;
+    letter-spacing: 1rem;
+    margin: 0;
+    line-height: 1em;
+    text-indent: 1rem;
+}
+
+h2 {
+    font-size: 2rem;
+    margin: 0;
+}
+
+header {
+    background-color: #000000;
+    font-size: .67rem;
+    text-align: right;
+    padding: .4rem;
+}
+
+header a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: .3rem;
+}
+
+footer {
+    color: #ffffff;
+    background-color: #000000;
+    font-size: .67rem;
+    padding: .4rem;
+    text-align: center;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: #ffffff;  
+  }
+
+  .container img {
+    max-width: 100%;
+  }
+
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .centered p {
+    margin: 0;
+  }
+
+  .main-info {
+    text-align: center;
+  }
+
+  .highlights {
+    display: flow-root;
+  }
+
+  .highlights .left {
+    width: 50%;
+    float: left;
+  }
+
+  .highlights .right {
+    width: 50%;
+    float: right;
+  }
+
+  .highlights-text {
+    display: inline-block;
+    width: 50%;
+  }
+
+  .highlights-text h2, .highlights-text p {
+    padding-left: .67rem;
+    padding-right: .67rem;
+  }
+
+  .menu-text {
+    text-align: center;
+  }
+
+  .about-info {
+    text-align: center;
+    text-transform: capitalize;
+  }
+
+  .food-items {
+    list-style-type: none;
+    padding-left: 0;
+    padding-top: 1.5em; 
+  }
+
+  .food-items li {
+    padding-bottom: 2rem;
+  }
